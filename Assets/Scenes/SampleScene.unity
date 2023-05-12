@@ -22196,6 +22196,8 @@ GameObject:
   - component: {fileID: 1990840976}
   - component: {fileID: 1990840975}
   - component: {fileID: 1990840974}
+  - component: {fileID: 1990840980}
+  - component: {fileID: 1990840979}
   m_Layer: 0
   m_Name: Animation Cube
   m_TagString: Untagged
@@ -22301,6 +22303,40 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1990840979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990840973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 211f7efcac0bad04f80a88b6daf02a06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 3
+  blocking: 0
+  TriggerName: Animation
+--- !u!114 &1990840980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990840973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87a3175187d611f49a9989d6ebe751f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debug: 0
+  timeToTrigger: 1
+  returnMultiplier: 1
+  maxTriggers: 0
+  neverBlockExit: 0
+  neverBlockEnter: 0
+  dontRetriggerUntilExit: 0
 --- !u!1 &2002510073
 GameObject:
   m_ObjectHideFlags: 0
