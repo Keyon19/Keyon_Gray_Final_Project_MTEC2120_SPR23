@@ -15230,9 +15230,9 @@ MonoBehaviour:
   _throttle: 1
   _life: 6
   _lifeRandomness: 0.6
-  _initialVelocity: {x: 3, y: 4, z: 3}
-  _directionSpread: 0.2
-  _speedRandomness: 0.5
+  _initialVelocity: {x: 1, y: -20, z: 1}
+  _directionSpread: 0.678
+  _speedRandomness: 0.646
   _acceleration: {x: 3, y: 3, z: 3}
   _drag: 0.1
   _spin: 20
@@ -15242,10 +15242,10 @@ MonoBehaviour:
   _noiseFrequency: 0.2
   _noiseMotion: 1
   _shapes:
-  - {fileID: 0}
+  - {fileID: 4300004, guid: d156dcf56f86f404393203fbed35c031, type: 3}
   _scale: 1
   _scaleRandomness: 0.5
-  _material: {fileID: 0}
+  _material: {fileID: 2100000, guid: 0477a0ead93522044b8dcfb84b736504, type: 2}
   _castShadows: 1
   _receiveShadows: 1
   _randomSeed: 0
@@ -15261,7 +15261,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1427616190}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.6039535, y: 0.16, z: 3.02}
+  m_LocalPosition: {x: 6.05, y: 15.36, z: 4.64}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
